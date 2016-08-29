@@ -45,7 +45,7 @@ endfunction"}
 call AutoOnehalf()
 
 " map togglebg key (requires vim-colors-onehalfd)
-call togglebg#map(g:auto_onehalf_togglebg_key)
+" call togglebg#map(g:auto_onehalf_togglebg_key)
 
 " make sure to AutoOnehalf during save
 if g:auto_onehalf_check_on_save == 1 && has('autocmd')
